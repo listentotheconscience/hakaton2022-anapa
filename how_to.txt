@@ -1,0 +1,5 @@
+neural net run following command:
+python neuralnet/detect.py --source /path/to/file --weights neuralnet/best.pt --conf 0.8 --name neural_net_detect
+                                                                                                                # --view-img show image
+                                                                                                                # --save-txt write results to txt file
+                                                                                                                # --save-crop save image crops
